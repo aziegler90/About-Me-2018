@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Create an Account</title>
+<link rel="stylesheet" type="text/css" href="site.css">
+<style>
+body {
+	background-color: #E6E6FA;
+}
+form {
+	margin: 25px 10px 10px 500px
+}
+ul.purplebox {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #BA55D3;
+}
+li.left {
+	float: left;
+}
+li a.link {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 10px 16px;
+	text-decoration: none;
+}
+li a:hover {
+	background-color: #9932CC
+}
+</style>
+</head>
+<body>
+
+<h2 style="text-align:center">Create an Account</h2>
+<br>
+<form action="mailto:n01160827@ospreys.unf.edu" method="post" enctype="text/plain">
+	<b>First Name:</b><br>
+	<input type="text" name="firstname">
+	<br>
+	<br>
+	<b>Last Name:</b><br>
+	<input type="text" name="lastname">
+	<br>
+	<br>
+	<b>Email Address:</b><br>
+	<input type="text" name="email">
+	<br>
+	<br>
+	<b>Password:</b><br>
+	<input type="password" name="password">
+	<br>
+	<br>
+	<b>Confirm Password:</b><br>
+	<input type="password" name="c_password">
+	<br>
+	<br>
+	<b>Birth Date:</b><br>
+	<input type="date" name="birthday" min="1970-01-01" max="2020-12-31" value="2015-10-21">
+	<br>
+	<br>
+	<b>Degree Track:</b><br>
+	<label class="container"><a href="https://www.unf.edu/ccec/computing/Computer_Science_Program.aspx" target="_blank" class="nochange">Computer Science</a>
+		<input type="radio" name="radio">
+			<span class="checkmark"></span>
+	</label>
+	<label class="container"><a href="https://www.unf.edu/ccec/computing/Information_Science_Program.aspx" target="_blank" class="nochange">Information Science</a>
+		<input type="radio" name="radio">
+			<span class="checkmark"></span>
+	</label>
+	<label class="container"><a href="https://www.unf.edu/ccec/computing/Information_Science_Program.aspx" target="_blank" class="nochange">Information Systems</a>
+		<input type="radio" name="radio">
+			<span class="checkmark"></span>
+	</label>
+	<label class="container"><a href="https://www.unf.edu/ccec/computing/Information_Technology_Program.aspx" target="_blank" class="nochange">Information Technology</a>
+		<input type="radio" name="radio">
+			<span class="checkmark"></span>
+	</label>
+	
+	<br>
+	<br>
+	<b>Programming Language Experience:</b><br>
+	<table>
+		<tr>
+			<td class="left"><label class="container2"><a href="https://en.wikipedia.org/wiki/C_(programming_language)" target="_blank" class="nochange">C</a>
+				<input type="checkbox" name="language1" value="C">
+					<span class="checkmark2"></span></label></td>
+			<td class="left"><label class="container2"><a href="https://en.wikipedia.org/wiki/C_Sharp_(programming_language)" target="_blank" class="nochange">C#</a>
+				<input type="checkbox" name="language2" value="C#">
+					<span class="checkmark2"></span></label></td>
+		</tr>
+		<tr>
+			<td class="left"><label class="container2"><a href="https://en.wikipedia.org/wiki/Java_(programming_language)" target="_blank" class="nochange">Java</a>
+				<input type="checkbox" name="language3" value="Java">
+					<span class="checkmark2"></span></label></td>
+			<td class="left"><label class="container2"><a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank" class="nochange">JavaScript</a>
+				<input type="checkbox" name="language4" value="JavaScript">
+					<span class="checkmark2"></span></label></td>
+		</tr>
+		<tr>
+			<td class="left"><label class="container2"><a href="https://en.wikipedia.org/wiki/PHP" target="_blank" class="nochange">PHP</a>
+				<input type="checkbox" name="language5" value="PHP">
+					<span class="checkmark2"></span></label></td>
+			<td class="left"><label class="container2"><a href="https://en.wikipedia.org/wiki/Python_(programming_language)" target="_blank" class="nochange">Python</a>
+				<input type="checkbox" name="language6" value="Python">
+					<span class="checkmark2"></span></label></td>
+		</tr>
+		<tr>
+			<td class="left"><label class="container2"><a href="https://en.wikipedia.org/wiki/Visual_Basic" target="_blank" class="nochange">Visual Basic</a>
+				<input type="checkbox" name="language7" value="VisualBasic">
+					<span class="checkmark2"></span></label></td>
+			<td class="left"><label class="container2">Other
+				<input type="checkbox" name="language8" value="Other">
+					<span class="checkmark2"></span></label></td>
+		</tr>
+	</table>
+	<br>
+	<br>
+	<input type="submit" value="Submit">
+	<input type="reset">	
+</form>
+<br>
+<br>
+<ul class="purplebox">
+	<li class="left"><a href="index.html" class="link nochange">Personal</a></li>
+	<li class="left"><a href="index.html" class="link nochange">ePortfolio</a></li>
+</ul>
+</body>
+</html>
